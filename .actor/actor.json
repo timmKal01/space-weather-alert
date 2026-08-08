@@ -1,0 +1,12 @@
+{
+    "actorSpecification": 1,
+    "name": "space-weather-alert",
+    "title": "Space Weather Alert — Aurora Visibility & HF Radio Blackout",
+    "description": "Current geomagnetic Kp index, GOES X-ray flare class, NOAA R-scale radio blackout severity, computed aurora-visible latitude, and active NOAA space weather alerts, in one snapshot.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "dockerfile": "../Dockerfile"
+}

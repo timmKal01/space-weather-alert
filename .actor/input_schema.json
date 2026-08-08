@@ -1,0 +1,15 @@
+{
+    "title": "Space Weather Alert Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "maxAlerts": {
+            "title": "Max active alerts to include",
+            "type": "integer",
+            "description": "How many of the most recent NOAA space weather alert/watch/warning messages to include in the snapshot.",
+            "default": 10,
+            "minimum": 1,
+            "maximum": 50
+        }
+    }
+}
