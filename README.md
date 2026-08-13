@@ -75,3 +75,9 @@ pollution, and time of night all matter too.
 Billed per **snapshot** (one run = one charge), regardless of how many
 alerts are active. Cheap enough to schedule hourly for continuous
 monitoring without the cost multiplying with alert volume.
+
+## Related products
+
+- [US Weather Forecast & Alerts Tracker](https://github.com/timmKal01/us-weather-tracker) — ground-level NWS forecasts and alerts for a location
+- [Field Operations Risk Briefing](https://github.com/timmKal01/field-operations-risk-briefing) — combines weather with GPS/radio conditions for field crews
+- [Earthquake Alert](https://github.com/timmKal01/earthquake-alert) — a different hazard type (seismic activity) for the same kind of monitoring use case
