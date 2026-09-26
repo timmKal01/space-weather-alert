@@ -1,6 +1,6 @@
 {
     "actorOutputSchemaVersion": 1,
-    "title": "Output schema of Space Weather Alert — Aurora Visibility & HF Radio Blackout",
+    "title": "Output schema of Space Weather Alert: Aurora Visibility & HF Radio Blackout",
     "description": "Results are pushed to the default dataset, one record per item.",
     "properties": {
         "results": {
