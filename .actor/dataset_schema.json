@@ -1,0 +1,57 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "geomagnetic.kpIndex",
+                    "geomagnetic.observedAt",
+                    "geomagnetic.auroraVisibleLatitude",
+                    "radioBlackout.xrayFlux",
+                    "radioBlackout.flareClass",
+                    "radioBlackout.observedAt",
+                    "radioBlackout.rScale"
+                ],
+                "flatten": [
+                    "geomagnetic",
+                    "radioBlackout"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "geomagnetic.kpIndex": {
+                        "label": "Geomagnetic: Kp index",
+                        "format": "number"
+                    },
+                    "geomagnetic.observedAt": {
+                        "label": "Geomagnetic: observed at",
+                        "format": "date"
+                    },
+                    "geomagnetic.auroraVisibleLatitude": {
+                        "label": "Geomagnetic: aurora visible latitude",
+                        "format": "number"
+                    },
+                    "radioBlackout.xrayFlux": {
+                        "label": "Radio blackout: xray flux",
+                        "format": "number"
+                    },
+                    "radioBlackout.flareClass": {
+                        "label": "Radio blackout: flare class",
+                        "format": "text"
+                    },
+                    "radioBlackout.observedAt": {
+                        "label": "Radio blackout: observed at",
+                        "format": "date"
+                    },
+                    "radioBlackout.rScale": {
+                        "label": "Radio blackout: R scale",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
