@@ -1,19 +1,24 @@
-# Space Weather Alert — Aurora Visibility & HF Radio Blackout
+# Space Weather Alerts: Aurora & Radio Blackout
 
-One snapshot combining the space-weather numbers ham radio operators, aurora
-chasers, and HF/satellite comms people currently check by hand across
-several NOAA pages:
+Current space weather conditions in one row, for ham and HF radio
+operators, aurora tour operators and photographers, and teams whose work
+depends on GPS or satellite communication. Get the geomagnetic storm
+level, how far south the aurora is visible, the solar flare and radio
+blackout level, and NOAA's active space weather alerts.
 
-- **Geomagnetic Kp index** — plus a computed aurora-visible latitude, so you
-  get "aurora may be visible above ~54°N" instead of a bare number
-- **GOES X-ray flare class & NOAA R-scale** — the same R1–R5 radio-blackout
-  severity scale NOAA itself publishes, derived from live X-ray flux
-- **Active NOAA space weather alerts/watches/warnings** — the official text
-  bulletins, most recent first
+## What you get
 
-Built for ham radio operators tracking HF propagation, aurora
-photographers/tourism operators planning by visibility latitude, and anyone
-who currently refreshes spaceweather.gov manually.
+One snapshot per run:
+
+- **Geomagnetic Kp index**, plus the latitude the aurora may be visible from, so you get "aurora may be visible above about 54°N" instead of a bare number
+- **Solar flare class and NOAA radio blackout level** (R1 to R5, NOAA's own scale), from live GOES X-ray readings
+- **Active NOAA space weather alerts, watches and warnings**, most recent first
+
+## Who this is for
+
+- **Ham and HF radio operators** checking propagation and blackouts.
+- **Aurora tour operators and photographers** planning by visibility latitude.
+- **Drone, survey and satellite communication teams** watching for storms that affect GPS and radio.
 
 ## Input
 

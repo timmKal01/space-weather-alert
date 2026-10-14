@@ -2,7 +2,7 @@
     "actorSpecification": 1,
     "name": "space-weather-alert",
     "title": "Space Weather Alerts: Aurora & Radio Blackout",
-    "description": "Current geomagnetic Kp index, GOES X-ray flare class, NOAA R-scale radio blackout severity, computed aurora-visible latitude, and active NOAA space weather alerts, in one snapshot.",
+    "description": "Current space weather in one row: geomagnetic Kp index, aurora visibility latitude, solar flare class and NOAA radio blackout level, plus active NOAA space weather alerts. For ham and HF radio operators, aurora tour operators and GPS-dependent field teams.",
     "version": "0.1",
     "meta": {
         "templateId": "custom-no-proxy"
