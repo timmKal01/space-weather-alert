@@ -85,4 +85,3 @@ monitoring without the cost multiplying with alert volume.
 
 - [US Weather Forecast & Alerts API (NWS)](https://apify.com/m_ctim/us-weather-tracker): ground-level NWS forecasts and alerts for a location
 - [Field Ops Risk Briefing](https://apify.com/m_ctim/field-operations-risk-briefing): combines weather with GPS/radio conditions for field crews
-- [Earthquake Tracker](https://apify.com/m_ctim/earthquake-alert): a different hazard type (seismic activity) for the same kind of monitoring use case
