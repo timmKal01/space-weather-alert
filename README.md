@@ -36,6 +36,7 @@ One record per run:
 
 ```json
 {
+  "rowType": "conditions",
   "geomagnetic": {
     "kpIndex": 4,
     "observedAt": "2026-08-08T00:00:00",

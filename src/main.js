@@ -33,6 +33,7 @@ try {
 const rScale = classifyRScale(xray?.flux);
 
 await Actor.pushData({
+    rowType: 'conditions',
     geomagnetic: {
         kpIndex: kp?.value ?? null,
         observedAt: kp?.timeTag ?? null,
